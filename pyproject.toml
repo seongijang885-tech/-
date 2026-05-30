@@ -1,0 +1,9 @@
+[project]
+name = "youtube-shorts-agent"
+version = "0.1.0"
+description = "A lightweight MVP agent that creates YouTube Shorts production packages."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
